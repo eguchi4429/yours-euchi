@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  devise_for :users
+  root 'yours#index' # ここを追記します
+  get 'yours/index' # 自動で設定されたルーティング
 end
