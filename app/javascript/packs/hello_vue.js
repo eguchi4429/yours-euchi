@@ -32,18 +32,16 @@
 // </div>
 
 
-import Vue from 'vue/dist/vue.esm'
-import App from '../app.vue'
+import { createApp } from 'vue'
+import App from './hello.vue'
 
 document.addEventListener('DOMContentLoaded', () => {
-  const app = new Vue({
-    el: '#hello',
-    data: {
-      message: "Can you say hello?"
-    },
-    components: { App }
-  })
+  const selector = '#js-hello-vue';
+  if(document.querySelector(selector)){
+    createApp(App).mount(selector);
+  }
 })
+
 //
 //
 //
