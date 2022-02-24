@@ -11,13 +11,17 @@
   </head>
 
   <body>
- <%= javascript_pack_tag 'hello_vue' %>
- <%= stylesheet_pack_tag 'hello_vue' %> 
+<%= javascript_pack_tag 'custom_vue' %> <!-- ←追加-->
+<%= javascript_pack_tag 'hello_vue' %>
+<%= stylesheet_pack_tag 'hello_vue' %>
 
-    <div id="hello">
+ <div id="hello">
       <p>{{ message }}</p>
     </div>
-
+    <!-- 追加↓-->
+    <div id="hello2">
+      <p>{{ message }}</p>
+    </div> 
     <%= yield %>
   </body>
 </html>

@@ -3,4 +3,3 @@ class AddauthorityToUsers < ActiveRecord::Migration[6.1]
     add_column :users, :authority, :string
   end
 end
-　
