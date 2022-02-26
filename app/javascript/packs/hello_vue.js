@@ -32,15 +32,14 @@
 // </div>
 
 
-import { createApp } from 'vue'
-import App from './hello.vue'
+import { createApp } from "vue";
+import App from "../app.vue";
 
-document.addEventListener('DOMContentLoaded', () => {
-  const selector = '#js-hello-vue';
-  if(document.querySelector(selector)){
-    createApp(App).mount(selector);
-  }
-})
+document.addEventListener("DOMContentLoaded", () => {
+  console.log('this is hello_vue.js')
+  const app = createApp(App);
+  app.mount("#vue-app");
+});
 
 //
 //

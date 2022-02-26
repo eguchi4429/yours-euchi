@@ -1,6 +1,10 @@
 <div id="js-hello-vue"></div>
 
 
+  <p>Find me in app/views/yours/index.html.erb</p>
+<%= javascript_pack_tag 'yours/index.js' %>
+<div id="yoursIndex"></div>
+
 <h1>ログインアプリ</h1>
 <% if user_signed_in? %> <!-- ユーザーがログインしているか調べる -->
   <!-- ユーザーがログインしていた時の処理 -->
