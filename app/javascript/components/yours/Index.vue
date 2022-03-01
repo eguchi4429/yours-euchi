@@ -1,18 +1,19 @@
 <template>
   <div>
-    <HeaderView v-bind:title="title" v-bind:description="description" />
+    aaaa
+    <Headercomponent v-bind:title="title" v-bind:description="description" />
     <Contents v-bind:contents="contents" />
   </div>
 </template>
 
 <script>
-import HeaderView from "../HeaderView.vue";
+import Headercomponent from "../Organisms/Headercomponent.vue";
 import Contents from "./Contents.vue";
 import Axios from "axios";
 
 export default {
   components: {
-    HeaderView,
+    Headercomponent,
     Contents
   },
   data: function() {
