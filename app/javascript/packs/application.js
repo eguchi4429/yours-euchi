@@ -13,3 +13,6 @@ Turbolinks.start()
 ActiveStorage.start()
 
 require('./hello_vue.js')
+
+const images = require.context('../images', true)
+const imagePath = (name) => images(name, true)

@@ -1,8 +1,8 @@
 <template>
   <div class='red'>
-　　
-    <img src="/assets/images/date_02-(M).png"/>
- 
+　　<div class='images'>
+   </div>
+
     <h1>{{ title }}</h1>
     <p>{{ description }}</p>
   </div>
@@ -28,4 +28,8 @@ export default {
  .red{
    background-color: rgb(199, 243, 4);
  }
+
+ .images {
+  background-image: url("../images/yours.png");
+}
 </style>
