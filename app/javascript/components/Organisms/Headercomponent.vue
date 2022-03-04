@@ -1,8 +1,8 @@
 <template>
   <div class='red'>
-　　　<ul>
-    <li><img src="/assets/images/date_02-(M).png"/></li>
-  </ul>
+　　
+    <img src="/assets/images/date_02-(M).png"/>
+ 
     <h1>{{ title }}</h1>
     <p>{{ description }}</p>
   </div>
@@ -21,6 +21,7 @@ export default {
     }
   }
 };
+
 </script>
 
 <style scoped>
