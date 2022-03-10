@@ -1,18 +1,23 @@
 <template>
   <div>
-    <Headercomponent v-bind:title="title" v-bind:description="description" />
-    <Contents v-bind:contents="contents" />
+  <Headercomponent class='header'></Headercomponent> 
   </div>
+   <div>
+  <Leftcomponent class="leftsidebar"></Leftcomponent>
+  <Contents v-bind:contents="contents" />
+</div>
 </template>
 
 <script>
-import Headercomponent from "../Organisms/Headercomponent.vue";
+import Headercomponent from "../Organisms/Headercomponent.vue"; // ヘッダー
+import Leftcomponent from "../Organisms/Leftcomponent.vue"; // サイドバー
 import Contents from "./Contents.vue";
 import Axios from "axios";
 
 export default {
   components: {
     Headercomponent,
+    Leftcomponent,
     Contents
   },
   data: function() {
@@ -42,5 +47,12 @@ created: function() {
   }
 </script>
 
-<style scoped>
+<style>
+.header{
+ display: flex; 
+ flex-direction: column;
+}
+.leftsidebar{
+
+}
 </style>

@@ -1,6 +1,7 @@
 <template>
-  <div>
-ああ 
+<div class='left'>
+  aaaaaaaaaaaaaa
+  bbbbbbbbbbbbbb
   </div>
 </template>
 
@@ -8,4 +9,11 @@
 
 </script>
 
-<style></style>
+<style>
+ .left{ 
+   background-color: rgb(243, 4, 4);
+   height: 70px;
+   width: 100%;
+   ext-align:center;
+ }
+</style>
