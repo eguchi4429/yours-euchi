@@ -1,36 +1,34 @@
 <template>
-  <div class='red'>
+  <div class='header'>
 　　
     <div class='images'>
-   </div>
- 
-    <h1>{{ title }}</h1>
-    <p>{{ description }}</p>
-  </div>
+  　</div> 
+
+</div>
+
 </template>
 
 <script>
-export default {
-  props: {
-    title: {
-      type: String,
-      default: () => ""
-    },
-    description: {
-      type: String,
-      default: () => ""
-    }
-  }
-};
 
 </script>
 
 <style scoped>
- .red{
+ .header{ 
    background-color: rgb(199, 243, 4);
+   height: 70px;
+   width: 100%;
+   position:relative
  }
 
  .images {
   background-image: url("../../images/yours.png");
+  background-repeat:  no-repeat;  
+  background-size: contain;
+  height: 50px;
+  width:100%;  
+  position: absolute;
+  top: 50%;
+  -webkit-transform : translateY(-50%);
+  transform : translateY(-50%);;
 }
 </style>

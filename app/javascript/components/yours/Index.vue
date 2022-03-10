@@ -1,6 +1,5 @@
 <template>
   <div>
-    aaaa
     <Headercomponent v-bind:title="title" v-bind:description="description" />
     <Contents v-bind:contents="contents" />
   </div>
@@ -35,7 +34,7 @@ created: function() {
           const responseData = response.data;
           this.title = responseData.title;
           this.description = responseData.description;
-          this.contents = responseData.contents;w
+          this.contents = responseData.contents;
         }
       );
    　 }
