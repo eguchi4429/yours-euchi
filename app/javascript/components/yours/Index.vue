@@ -1,9 +1,11 @@
 <template>
-<div>
-  <header><Headercomponent class='header'></Headercomponent></header>
-  <nav><Leftcomponent class="leftsidebar"></Leftcomponent> </nav>
-  <main><Contents class="contents" v-bind:contents="contents" /></main>
-</div> 
+<div class="mypage">
+  <Headercomponent class='header'></Headercomponent>
+   　<div class="parent">
+    　<div> <Leftcomponent class="leftsidebar"></Leftcomponent> </div>
+      <div><Contents class="contents" v-bind:contents="contents" /></div>
+   </div> 
+</div> 　
 </template>
 
 <script>
@@ -46,14 +48,15 @@ created: function() {
 </script>
 
 <style>
+.parent{
+ display: flex;
+ justify-content:flex-start;
+ float: left;
+}
+
 .leftsidebar{
-flex-direction: column;
-width:130px;
+width:290px;
 height:100vh; 
+margin: 0;
 }
-
-nav {
-position: fixed;
-}
-
 </style>

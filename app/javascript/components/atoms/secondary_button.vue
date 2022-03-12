@@ -1,5 +1,5 @@
 <template>
-  <div class="memo">メモ作成</div>
+  <div class="question">質問する</div>
 </template>
 
 <script>
@@ -7,7 +7,7 @@
 </script>
 
 <style>
-.memo{
+.question{
 background-color: #FBC300;
   border-radius: 7px;
   box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.2);
