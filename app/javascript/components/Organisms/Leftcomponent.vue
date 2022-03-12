@@ -1,7 +1,6 @@
 <template>
 <div class='left'>
-  aaaaaaaaaaaaaa
-  bbbbbbbbbbbbbb
+  <p><router-link to="/primary_button.vue" class="button">メモ作成</router-link></p>
   </div>
 </template>
 
