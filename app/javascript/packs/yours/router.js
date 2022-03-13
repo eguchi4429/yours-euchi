@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 import Index from "../../components/yours/Index";
+import Headercomponent from "../../Organisms/Headercomponent";
 import Question from "../../components/yours/question";
 
 const router = createRouter({
@@ -8,6 +9,7 @@ const router = createRouter({
   routes: [
     { path: '/', component: Index, question: 'index' },
     { path: '/question', component: Question, name: 'question' },
+    { path: '/headercomponent', component: Headercomponent, name: 'header' },
   ],
 })
 

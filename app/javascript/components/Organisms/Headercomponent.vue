@@ -1,8 +1,8 @@
 <template>
   <div class='header'>
-　 <div class='images'>
-      <img src="../../images/yours.png"  alt="yours　ロゴ" width="150" height="60">
-  　</div>
+   <div class='images'>
+      <img src="../../images/yours.png"  alt="yours ロゴ" width="150" height="60">
+   </div>
 </div>
 
 </template>

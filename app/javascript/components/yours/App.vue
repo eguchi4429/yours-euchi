@@ -6,13 +6,6 @@
       <div><Contents class="contents" v-bind:contents="contents" /></div>
     </div>
     <router-view></router-view>
-    <a
-        href="http://y-yours.biz"
-        class="item-link"
-        @click="alert"
-        >
-        テキストリンク
-      </a>
   </div>
 </template>
 
