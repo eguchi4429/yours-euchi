@@ -4,7 +4,9 @@
    　<div class="parent">
     　<div> <Leftcomponent class="leftsidebar"></Leftcomponent> </div>
       <div><Contents class="contents" v-bind:contents="contents" /></div>
-   </div> 
+    </div> 
+    <router-link :to="{ name: 'question' }" class="btn btn-dark mt-5">メモ作成へ</router-link>
+    
 </div> 　
 </template>
 
@@ -52,6 +54,7 @@ created: function() {
  display: flex;
  justify-content:flex-start;
  float: left;
+ padding: 0px;
 }
 
 .leftsidebar{
