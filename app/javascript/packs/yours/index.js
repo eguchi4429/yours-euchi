@@ -1,7 +1,9 @@
 import { createApp } from "vue";
-import Index from "../../components/yours/Index.vue";
+import router from './router';
+import App from '../../components/yours/App';
 
 document.addEventListener("DOMContentLoaded", () => {
-  const app = createApp(Index)
+  const app = createApp(App);
+  app.use(router);
   app.mount("#yoursIndex");
 });
