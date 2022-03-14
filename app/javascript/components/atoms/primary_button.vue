@@ -1,6 +1,6 @@
 <template>
   <div>
-  <router-link :to="{ name: 'question' }" class="memo">メモ作成</router-link>
+  <a href="/yours/question.vue" class="memo">メモ作成</a>
   </div>
 </template>
 
