@@ -1,7 +1,5 @@
 <template>
-  <div>
-  <a href="/yours/question.vue" class="memo">メモ作成</a>
-  </div>
+<a href="/question" class="memo">メモ作成</a>
 </template>
 
 <script>
@@ -21,7 +19,8 @@ background-color: #FBC300;
   font-size: 15px;
   text-align:center;
   margin: 0.5em;
-  padding: 1em 2em;
-  line-height: 1;
+  padding: 1em 1em;
+  line-height: 0.8;
+  white-space: nowrap;
 }
 </style>

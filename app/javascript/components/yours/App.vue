@@ -57,7 +57,7 @@ export default {
 }
 
 .leftsidebar{
-  width:290px;
+  width:230px;
   height:100vh;
   margin: 0;
 }

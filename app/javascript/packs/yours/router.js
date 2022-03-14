@@ -7,7 +7,7 @@ import Question from "../../components/yours/question";
 const router = createRouter({
   history: createWebHistory(), // URLにハッシュをつけない
   routes: [
-    { path: '/', component: Index, question: 'index' },　// このパスにアクセスしたら指定したコンポーネントを呼ぶようになっている
+    { path: '/', component: Index, question: 'index' },// このパスにアクセスしたら指定したコンポーネントを呼ぶようになっている
     { path: '/question', component: Question, name: 'question' },
   ],
 })

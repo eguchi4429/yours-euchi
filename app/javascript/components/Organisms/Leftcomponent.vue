@@ -1,8 +1,8 @@
 <template>
 <div class='leftsidebar'>
-    <div class='button'>
-   <primary_button></primary_button> 
-   <secondary_button></secondary_button> 
+   <div class='button'>
+    <primary_button></primary_button> 
+    <secondary_button></secondary_button> 
    </div>
   <left_text></left_text> 
 </div>
@@ -27,14 +27,13 @@ export default {
  .leftsidebar{ 
    background-color: rgb(253, 251, 251);
    height: 70px;
-   width: 150px;
-   ext-align:center;
+   text-align:center;
    border-style: solid;
    border-color: black;
  }
 
  .button{
    display: flex;
-  　justify-content: space-evenly;
+   justify-content: space-evenly;
  }
 </style>
