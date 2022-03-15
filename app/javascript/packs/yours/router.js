@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-// コンポーネントを読み込む
 import Index from "../../components/yours/Index";
 import Question from "../../components/yours/question";
 

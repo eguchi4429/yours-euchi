@@ -54,6 +54,7 @@ margin: 1px 1px;
 }
 
 .text{
+  line-height: 2.5;
 }
 
 </style>
