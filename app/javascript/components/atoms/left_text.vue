@@ -1,16 +1,31 @@
 <template>
 <div class="menu">
   <div class="content">
-      <div class=box>
+    <div class=box>
          <div class=text-box>
-           <img src="../../images/all.png"  alt="全ての投稿" width="25" height="25">
-           <di class="text">全ての投稿</di> 
+            <img src="../../images/all.png"  alt="全ての投稿" width="25" height="25">
+            <div class="text">全ての投稿</div> 
          </div>
-      </div>
-    <div class="content">お気に入り</div>
-    <div class="content">自分宛の投稿</div>
-    <div class="content">自分の投稿</div>
- </div>
+     </div>
+    <div class="box">
+          <div class=text-box>
+            <img src="../../images/like.png"  alt="お気に入り" width="25" height="25">
+            <div class="text">お気に入り</div>  
+         </div>
+   </div>
+    <div class="box">
+          <div class=text-box>
+            <img src="../../images/tome.png"  alt="自分宛の投稿" width="25" height="25">
+            <div class="text">自分宛の投稿</div>  
+          </div>
+   </div>
+    <div class="box">
+       <div class=text-box>
+           <img src="../../images/human.png"  alt="自分の投稿" width="25" height="25">
+           <div class="text">自分の投稿</div>  
+       </div>
+    </div>
+  </div>
 </div>
 </template>
 
@@ -20,7 +35,6 @@
 
 <style>
 .menu{
-  color: rgb(175, 173, 173);
   display:flex;
   flex-flow: column;
   justify-content:center;
@@ -36,25 +50,30 @@
   box-sizing: border-box;
    margin: 1px 1px;
    padding: 9px 10px;
-   background-color: #FBC300;
+   background-color: white;
    display:flex;
    flex-flow: column;
    justify-content: center;
    text-align: left;
    height: 32px;
    width: 229px;
+   border-color: white;
 }
 
+.box:hover {
+  background-color: #EFEDED;
+   }
+
 .text-box{
-box-sizing: border-box;
+display:flex;
 width: 100%;
 height: 200%;
-background-color: #f55e5e;
-margin: 1px 1px;
 }
 
 .text{
-  line-height: 2.5;
+line-height: normal;
+margin: 1px 9px;
+color: rgb(7, 7, 7);
 }
 
 </style>

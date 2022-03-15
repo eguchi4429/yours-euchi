@@ -5,7 +5,7 @@
       <div> <Leftcomponent class="leftsidebar"></Leftcomponent> </div>
       <div><Contents class="contents" v-bind:contents="contents" /></div>
     </div>
-  <router-view/>
+    <router-view/>
   </div>
 </template>
 
@@ -46,6 +46,7 @@ export default {
     }
   }
 }
+
 </script>
 
 <style>

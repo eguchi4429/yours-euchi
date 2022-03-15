@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import router from './router';
+import router from './router'; // ルーティングのために追加
 import App from '../../components/yours/App';
 
 document.addEventListener("DOMContentLoaded", () => {

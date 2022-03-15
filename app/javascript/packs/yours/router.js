@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Index from "../../components/yours/Index";
 import Question from "../../components/yours/question";
 
+//ここでルーティングの設定
 const router = createRouter({
   history: createWebHistory(), // URLにハッシュをつけない
   routes: [
