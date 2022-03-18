@@ -1,9 +1,9 @@
 <template>
 <router-link :to="{ name: 'question' }" class="memo">メモ作成</router-link>
+   <router-view></router-view>
 </template>
 
 <script>
-
 </script>
 
 <style>

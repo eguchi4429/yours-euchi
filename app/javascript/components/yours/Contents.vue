@@ -1,4 +1,4 @@
-<template>
+39 lines (37 sloc)  675 Bytes<template>
   <div>
     <table class="contents">
       <tr>

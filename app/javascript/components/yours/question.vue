@@ -1,8 +1,11 @@
 <template>
-  <h1>メモ作成</h1>
-  question
+<hi>これはquestion</hi>
 </template>
 
 <script>
 
 </script>
+
+<style>
+
+</style>
