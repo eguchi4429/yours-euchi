@@ -1,11 +1,8 @@
 <template>
   <div class="mypage">
     <Headercomponent class='header'></Headercomponent>
-      <h1>これはindex</h1>
       <div class="parent">
-        これはindex
       <div> <Leftcomponent class="leftsidebar"></Leftcomponent> </div>
-         <router-view></router-view>
     </div>
  </div>
 </template>

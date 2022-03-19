@@ -1,23 +1,23 @@
 <template>
 <div class='leftsidebar'>
    <div class='button'>
-    <primary_button></primary_button> 
-    <secondary_button></secondary_button> 
+    <PrimaryButton></PrimaryButton> 
+    <SecondaryButton></SecondaryButton> 
    </div>
-  <left_text></left_text> 
+  <LeftText></LeftText> 
 </div>
 </template>
 
 <script>
-import primary_button from "../atoms/primary_button.vue";
-import secondary_button from "../atoms/secondary_button.vue";
-import left_text from "../atoms/left_text.vue";
+import PrimaryButton from "../atoms/PrimaryButton.vue";
+import SecondaryButton from "../atoms/SecondaryButton.vue";
+import LeftText from "../atoms/LeftText.vue";
 
 export default {
   components: {
-    primary_button,
-    secondary_button,
-    left_text,
+    PrimaryButton,
+    SecondaryButton,
+    LeftText,
   }
 };
 
