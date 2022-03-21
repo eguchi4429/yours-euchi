@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 import Index from "../../components/yours/Index";
-import Question from "../../components/yours/question";
+import Question from "../../components/yours/Question";
 
 //ここでルーティングの設定
 const router = createRouter({

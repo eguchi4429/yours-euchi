@@ -1,5 +1,5 @@
 <template>
-  <div class="question">質問する</div>
+<router-link :to="{ name: 'question' }" class="question">質問する</router-link>
 </template>
 
 <script>

@@ -52,7 +52,7 @@
 <script>
 </script>
 
-<style>
+<style scoped>
 .menu {
   display: flex;
   flex-flow: column;
