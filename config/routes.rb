@@ -1,10 +1,5 @@
 Rails.application.routes.draw do
-  namespace :api do
-    namespace :v1 do
-      get 'yours/index'
-    end
+  namespace :v1 do
+    mount_devise_token_auth_for "User", at: "auth"
   end
-  devise_for :users
-  root 'yours#index' # ここを追記します
-  get '*path', to: 'yours#index' # Vueでルーティングするため全てindexにルーティングする
 end
